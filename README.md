@@ -8,20 +8,14 @@ This is the reference PyTorch implementation for testing the FSNet fundamental s
 >
 > [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper.html), [Supplemental Material](https://github.com/nianticlabs/scoring-without-correspondences/blob/main/resources/FSNet_supp.pdf)
 
-
-Example of relative pose selection based on state-of-the-art inlier heuristics and FSNet scoring methods:
-
-
-<p align="center">
-  <img src="resources/teaser.png" width="580" />
-</p>
-
-
 This code is for non-commercial use; please see the license file for terms. If you do find any part of this codebase helpful, please cite our paper using the BibTex below and link this repo. Thank you!
 
 ## Overview
 
-FSNet takes as input two RGB images and a fundamental matrix, and outputs the relative translation and rotation errors. Such errors are used as the scores to rank the fundamental matrices.
+FSNet takes as input two RGB images and a fundamental matrix, and outputs the relative translation and rotation errors. Such errors are used as the scores to rank the fundamental matrices:
+<p align="center">
+  <img src="resources/method_overview.png" width="900" />
+</p>
 
 ## Setup
 
@@ -43,9 +37,7 @@ Arguments:
 
 The demo script returns the top scoring fundamental matrix and its predicted translation and rotation errors. Optionally, the script also prints the epipolar lines corresponding to the selected fundamental matrix for easy inspection. See the example below:
 <div align="center">
-  <img src="resources/im_test/epi_lines.jpg" width="900" />
-  <figcaption>
-    Fig 2. Epipolar lines for top scoring fundamental matrix.</figcaption>
+  <img src="resources/im_test/epi_lines.jpg" width="700" />
 </div>
 
 ## BibTeX
