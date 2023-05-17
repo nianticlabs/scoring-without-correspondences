@@ -1,0 +1,31 @@
+ENCODER:
+  IM_SIZE: 256
+  BLOCKS_DIM: [128, 196, 256, 256]
+  ENCODER_DIM: 128
+AGGREGATOR:
+  TYPE: 'Transformer'
+  TRANSFORMER:
+    NHEADS: 8
+    LAYER_NAMES: ['self', 'cross', 'self', 'cross', 'self', 'cross', 'self', 'cross-epi']
+    NUMBER_LAYER: 1
+    ATTENTION: 'linear'  # options: ['linear', 'full', 'cross']
+  POS_ENCODER:
+    TYPE: 'mlp'
+    USE_POS_ENC: False
+    USE_IM_POS: True
+    NORM_POS: True
+    REL_POS: False
+    ONLY_CROSS: False
+  BATCH_NORM: True
+  PRE_AVG: True
+  IS_MAXPOOL: True
+  IS_MEAN: True
+  IS_MLP: True
+  MLP_BN: False
+  F_B: False
+FMAT_SAMPLING:
+  FMAT_BARCH_SIZE: 50
+  SAMPLING_IN_DEPTH: 'pixelwise' # "adaptive", "pixelwise", "depth"
+  SAMPLING_DIM: 45
+  SAMPLING_DIST: 8 # SAMPLING_DIST = 16 if IM_SIZE = 512 -- SAMPLING_DIST = 8 if IM_SIZE = 256
+  F_INTER: 'bilinear'
