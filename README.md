@@ -9,7 +9,7 @@ This is the reference PyTorch implementation for testing the FSNet fundamental s
 > [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper.html), [Supplemental Material](https://github.com/nianticlabs/scoring-without-correspondences/blob/main/resources/FSNet_supp.pdf)
 
 
-Example of relative pose selection based on state-of-the-art inlier heuristic and FSNet scoring methods:
+Example of relative pose selection based on state-of-the-art inlier heuristics and FSNet scoring methods:
 
 
 <p align="center">
