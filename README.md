@@ -6,15 +6,16 @@ This is the reference PyTorch implementation for testing the FSNet fundamental s
 >
 > Axel Barroso-Laguna, Eric Brachmann, Victor Adrian Prisacariu, Gabriel Brostow and Daniyar Turmukhambetov
 >
-> [Paper, CVPR 2023 (arXiv pdf - *update the link*)](https://arxiv.org/), [Supplemental Material](https://nianticlabs.github.io/scoring-without-correspondences/resources/FSNet_supp.pdf.pdf)
+> [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper.html), [Supplemental Material](https://github.com/nianticlabs/scoring-without-correspondences/blob/main/resources/FSNet_supp.pdf)
 
 
-<div align="center">
+Example of relative pose selection based on state-of-the-art inlier heuristic and FSNet scoring methods:
+
+
+<p align="center">
   <img src="resources/teaser.png" width="580" />
-  <figcaption>Fig 1. Relative pose selection based on MAGSAC++ and FSNet scoring methods.</figcaption>
-</div>
+</p>
 
-<br />
 
 This code is for non-commercial use; please see the license file for terms. If you do find any part of this codebase helpful, please cite our paper using the BibTex below and link this repo. Thank you!
 
@@ -43,7 +44,8 @@ Arguments:
 The demo script returns the top scoring fundamental matrix and its predicted translation and rotation errors. Optionally, the script also prints the epipolar lines corresponding to the selected fundamental matrix for easy inspection. See the example below:
 <div align="center">
   <img src="resources/im_test/epi_lines.jpg" width="900" />
-  <figcaption>Fig 2. Epipolar lines for top scoring fundamental matrix.</figcaption>
+  <figcaption>
+    Fig 2. Epipolar lines for top scoring fundamental matrix.</figcaption>
 </div>
 
 ## BibTeX
