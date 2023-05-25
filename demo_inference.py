@@ -30,7 +30,7 @@ if __name__ == '__main__':
                         help='Define whether a plot showing epipolar lines generated from top scoring '
                              'fundamental matrix should be created.')
 
-    parser.add_argument('--path_epi_fig', type=str, default='im_test/epi_lines.jpg',
+    parser.add_argument('--path_epi_fig', type=str, default='resources/im_test/epi_lines.jpg',
                         help='Path to the epipolar lines plot.')
 
     parser.add_argument('--gpu_id', type=str, default='0', help='GPU index where FSNet should run')
