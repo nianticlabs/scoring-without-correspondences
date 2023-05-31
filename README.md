@@ -10,6 +10,12 @@ This is the reference PyTorch implementation for testing the FSNet fundamental s
 
 This code is for non-commercial use; please see the license file for terms. If you do find any part of this codebase helpful, please cite our paper using the BibTex below and link this repo. Thank you!
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=ZlT5h3uuU1k">
+  <img src="resources/teaser_video.png" alt="3 minute CVPR presentation video link" width="700">
+  </a>
+</p>
+
 ## Overview
 
 FSNet takes as input two RGB images and a fundamental matrix, and outputs the relative translation and rotation errors. Such errors are used as the scores to rank the fundamental matrices:
