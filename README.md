@@ -12,7 +12,7 @@ This code is for non-commercial use; please see the license file for terms. If y
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=ZlT5h3uuU1k">
-  <img src="resources/teaser_video.png" alt="3 minute CVPR presentation video link" width="700">
+  <img src="resources/teaser_video.png" alt="3 minute CVPR presentation video link" width="550">
   </a>
 </p>
 
