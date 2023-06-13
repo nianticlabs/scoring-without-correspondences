@@ -8,7 +8,7 @@ This is the reference PyTorch implementation for testing the FSNet fundamental m
 >
 > [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Barroso-Laguna_Two-View_Geometry_Scoring_Without_Correspondences_CVPR_2023_paper.html), [Supplemental Material](https://github.com/nianticlabs/scoring-without-correspondences/blob/main/resources/FSNet_supp.pdf)
 
-This code is for non-commercial use; please see the license file for terms. If you do find any part of this codebase helpful, please cite our paper using the BibTex below and link this repo. Thank you!
+Patent pending. This code is for non-commercial use; please see the license file for terms. If you do find any part of this codebase helpful, please cite our paper using the BibTex below and link this repo. Thank you!
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=ZlT5h3uuU1k">
