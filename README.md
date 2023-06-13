@@ -1,6 +1,6 @@
 # Two-view Geometry Scoring Without Correspondences
 
-This is the reference PyTorch implementation for testing the FSNet fundamental scoring method described in
+This is the reference PyTorch implementation for testing the FSNet fundamental matrix scoring method described in
 
 > **Two-view Geometry Scoring Without Correspondences**
 >
